@@ -59,7 +59,7 @@ int main()
 	assert(l1 >= 0 && l2 >= 0);
 	assert(abs(m1) <= l1 && abs(m2) <= l2);
 
-	double theta = M_PI / 3, phi = M_PI / 4;  //theta θ in [0, π], phi φ in [0,2π);
+	double theta = M_PI *0, phi = M_PI *0;  //theta θ in [0, π], phi φ in [0,2π);
 	assert(theta <= M_PI && 0 <= theta);
 	assert(0 <= phi && phi <= 2 * M_PI);
 	cout << "theta is now: " << theta << " phi is now: " << phi << endl;
@@ -70,7 +70,7 @@ int main()
 
 	ofstream datafile;
 	datafile.open("data.csv");
-
+/*
 	int num = 0;
 	double diff = 0;
 	double truncation_error = 1e-10;
@@ -93,10 +93,20 @@ int main()
 		if ( !(diff < truncation_error) && num<50)  //continuing conditions: if truncation error not met and index l is not over limit
 		num++;
 	}
-
+*/
+	int lmax=2;
+	for(int l=0;l<=lmax;l++)
+		for(int m=-l;m<=l;m++)
+			for(int j=0;j<=lmax;j++)
+				for(int p=-j;p<=j;p++)
+					for(int n=max(abs(l-j),0);n<=min( (l+j),lmax);n++ )
+					{
+						if(abs(m+p)<=n)
+						datafile<<l<<","<<m<<","<< j<<"," <<p<<","<< n<<","<<setprecision(17)<<a(n,m+p,j,p,l,m) <<endl;
+					}
 
 	datafile.close();
-	cout << "the abs difference is: " << diff <<" at l = "<<num<< endl;
+	//cout << "the abs difference is: " << diff <<" at l = "<<num<< endl;
 
 
 
