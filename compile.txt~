@@ -1,6 +1,0 @@
-rm mp.o
-rm a.out
-g++ -Wall -c mp.c
-g++ -L/usr/local/lib mp.o -lgsl -lgslcblas -lm
-./a.out
-
