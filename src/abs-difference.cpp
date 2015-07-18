@@ -59,7 +59,7 @@ int main()
 	assert(l1 >= 0 && l2 >= 0);
 	assert(abs(m1) <= l1 && abs(m2) <= l2);
 
-	double theta = M_PI *0, phi = M_PI *0;  //theta θ in [0, π], phi φ in [0,2π);
+	double theta = M_PI / 3, phi = M_PI / 4;  //theta θ in [0, π], phi φ in [0,2π);
 	assert(theta <= M_PI && 0 <= theta);
 	assert(0 <= phi && phi <= 2 * M_PI);
 	cout << "theta is now: " << theta << " phi is now: " << phi << endl;
@@ -70,7 +70,7 @@ int main()
 
 	ofstream datafile;
 	datafile.open("data.csv");
-/*
+
 	int num = 0;
 	double diff = 0;
 	double truncation_error = 1e-10;
@@ -93,47 +93,10 @@ int main()
 		if ( !(diff < truncation_error) && num<50)  //continuing conditions: if truncation error not met and index l is not over limit
 		num++;
 	}
-*/
-	int lmax=2;
-	for(int l=0;l<=lmax;l++)
-		for(int m=-l;m<=l;m++)
-			for(int j=0;j<=lmax;j++)
-				for(int p=-j;p<=j;p++)
-					for(int n=max(abs(l-j),0);n<=min( (l+j),lmax);n++ )
-					{
-						if(abs(m+p)<=n)
-						datafile<<l<<","<<m<<","<< j<<"," <<p<<","<< n<<","<<setprecision(17)<<a(n,m+p,j,p,l,m) <<endl;
-					}
+
 
 	datafile.close();
-	//cout << "the abs difference is: " << diff <<" at l = "<<num<< endl;
-
-
-
-
-
-
-
-
-
-
-	/*
-	double val3j = gsl_sf_coupling_3j( 2*1,2*1,0,0,0,0);
-	printf ("3J:      %#25.15f\n", val3j);
-	*/
-
-	/*
-  int num_of_col = 5;
-  int num_of_row = 9;
-  double init_value = 3.14;
-
-  vector< vector<double> > matrix;
-  //now we have an empty 2D-matrix of size (0,0). Resizing it with one single command:
-  matrix.resize(num_of col, vector<double>(num_of_row, init_value));
-  */
-
-	//cout<<imag( spherical_harmonic(0,0,0,0)  )<<endl;
-
+	cout << "the abs difference is: " << diff <<" at l = "<<num<< endl;
 
 	return 0;
 }

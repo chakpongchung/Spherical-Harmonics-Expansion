@@ -46,16 +46,16 @@ double b(int m_prime, int l_prime, int m1, int l1, int m2, int l2, int m3, int l
 
 int main()
 {
-	
+
 
 	printf("*******************************************************************\n");
 	printf("cofficients for spherical-harmonic expansion test program  -cpchung\n");
 	printf("*******************************************************************\n");
 
 
-	
 
-	int  l1 = 8, m1 = -3, l2 = 21, m2 = -1; //  l1 ,l2 >=0, |m1|<=l1, |m2|<=l2;  
+
+	int  l1 = 8, m1 = -3, l2 = 21, m2 = -1; //  l1 ,l2 >=0, |m1|<=l1, |m2|<=l2;
 	assert(l1 >= 0 && l2 >= 0);
 	assert(abs(m1) <= l1 && abs(m2) <= l2);
 
@@ -98,31 +98,6 @@ int main()
 	datafile.close();
 	cout << "the abs difference is: " << diff <<" at l = "<<num<< endl;
 
-
-
-
-
-
-
-
-
-
-	/*
-	double val3j = gsl_sf_coupling_3j( 2*1,2*1,0,0,0,0);
-	printf ("3J:      %#25.15f\n", val3j);
-	*/
-
-	/*
-  int num_of_col = 5;
-  int num_of_row = 9;
-  double init_value = 3.14;
-
-  vector< vector<double> > matrix;
-  //now we have an empty 2D-matrix of size (0,0). Resizing it with one single command:
-  matrix.resize(num_of col, vector<double>(num_of_row, init_value));
-  */
-
-	//cout<<imag( spherical_harmonic(0,0,0,0)  )<<endl;
 
 
 	return 0;

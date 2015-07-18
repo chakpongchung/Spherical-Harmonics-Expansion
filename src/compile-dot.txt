@@ -1,0 +1,6 @@
+clear
+rm *.o
+rm *.out
+g++ -Wall -c dot-product.c
+g++ -L/usr/local/lib dot-product.o -lgsl -lgslcblas -lm
+./a.out
