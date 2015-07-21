@@ -1,7 +1,0 @@
-clear
-rm *.o
-rm *.out
-g++ -Wall -c format-mp.c
-g++ -L/usr/local/lib format-mp.o -lgsl -lgslcblas -lm
-./a.out
-

@@ -64,36 +64,9 @@ int main()
 	assert(0 <= phi && phi <= 2 * M_PI);
 	cout << "theta is now: " << theta << " phi is now: " << phi << endl;
 
-
-	complex<double> sum = complex<double>(0, 0);
-	//cout<<"complex 0 is: "<<sum<<endl;
-
 	ofstream datafile;
 	datafile.open("data.csv");
-/*
-	int num = 0;
-	double diff = 0;
-	double truncation_error = 1e-10;
 
-	for (int l = 0; l <= num; l++)
-	{
-		for (int m = -l; m <= l; m++)
-			if (a(l,m, l1, m1, l2, m2 ))
-			{
-				printf("a_lm, l, m,  l1, m1 , l2, m2 are: %.15f %2d %2d %2d %2d %2d %2d  \n\n",
-					a(l,m, l1, m1, l2, m2 ), l, m, l1, m1, l2, m2);
-
-				sum = sum + a(l,m, l1, m1, l2, m2)*spherical_harmonic(l, m, theta, phi);
-
-				datafile << l << "," << m << "," << l1 << "," << m1 << "," << l2 << "," << m2 << "," << a(l,m, l1, m1, l2, m2 ) << endl;
-			}
-
-		diff = abs(sum - spherical_harmonic(l1, m1, theta, phi)*spherical_harmonic(l2, m2, theta, phi));
-
-		if ( !(diff < truncation_error) && num<50)  //continuing conditions: if truncation error not met and index l is not over limit
-		num++;
-	}
-*/
 	int lmax=2;
 	for(int l=0;l<=lmax;l++)
 		for(int m=-l;m<=l;m++)
@@ -106,8 +79,6 @@ int main()
 					}
 
 	datafile.close();
-	//cout << "the abs difference is: " << diff <<" at l = "<<num<< endl;
-
 
 	return 0;
 }
