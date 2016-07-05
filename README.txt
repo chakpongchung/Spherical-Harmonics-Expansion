@@ -1,6 +1,6 @@
 This is a project for spherical harmonics expansion and the general solution of the inner product of rotational gradient operator.
 
-https://github.com/chakpongchung/spherical-harmonics-expansion/blob/master/derivation/master_project.ipynb
+https://github.com/chakpongchung/spherical-harmonics-expansion/blob/master/Master-Project.ipynb
 
 
 The core algorithm is now implemented with boost and GNU scientific library in C/C++ and SymPy in python.
