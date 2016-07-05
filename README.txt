@@ -10,7 +10,7 @@ A corresponding detailed ipython notebook will be uploaded once finished
 
 To use the code-snippets in linux, you can run it in the terminal with
 
-# source compile.txt
+# ./run.sh
 
 To use test the whole program, you can go to the src folder in the terminal, then
 ├── Makefile
@@ -21,7 +21,7 @@ To use test the whole program, you can go to the src folder in the terminal, the
 
 # make
 
-LIBRARIES PREQUISITE:
+LIBRARIES DEPENDENCIES:
 
 Boost C++ Libraries 
 www.boost.org/
@@ -35,19 +35,17 @@ The current folder structure is:
 ├── code-snippets
 │   ├── assert.cpp
 │   ├── check_diff.cpp
-│   ├── compile-print_a.txt
-│   └── print_a.c
-├── derivation
-│   ├── draft.pdf
-│   ├── identity.pdf
-│   └── result.pdf
+│   ├── print_a.c
+│   └── run.sh
+├── Master-Project.ipynb
 ├── notations
 │   ├── 1.pdf
 │   ├── 2.pdf
 │   ├── 3.pdf
 │   ├── dot_product.pdf
-│   └── expansion.pdf
-├── notes.pdf
+│   ├── expansion.pdf
+│   ├── identity.pdf
+│   └── result.pdf
 ├── README.txt
 └── src
     ├── Makefile
@@ -57,8 +55,6 @@ The current folder structure is:
     └── sph.cpp
 
 
-
-It would be nice to know if you can compile the latest GSL library on Windows machine with Visual Studio.
 
 Please send email to chakpongchung@gmail.com should you encounter any trouble using the code.
 
