@@ -1,6 +1,7 @@
 This is a project for spherical harmonics expansion and the general solution of the inner product of rotational gradient operator.
 
-https://github.com/chakpongchung/spherical-harmonics-expansion/blob/master/Master-Project.ipynb
+http://nbviewer.jupyter.org/github/chakpongchung/spherical-harmonics-expansion/blob/master/Master-Project.ipynb
+
 
 Use case:
 
