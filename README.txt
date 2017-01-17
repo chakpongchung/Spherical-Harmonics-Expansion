@@ -2,6 +2,14 @@ This is a project for spherical harmonics expansion and the general solution of 
 
 https://github.com/chakpongchung/spherical-harmonics-expansion/blob/master/Master-Project.ipynb
 
+Use case:
+
+One of the use cases we find is in nematic polymer simulation. We used it to find out the parameters that can coverge to  periodic pattern for 1D sturcture.
+
+https://drive.google.com/drive/folders/0B07OecC53Z0dMnpnbVpqNjV4VkE
+
+
+
 
 The core algorithm is now implemented with boost and GNU scientific library in C/C++ and SymPy in python.
 
