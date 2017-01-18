@@ -37,8 +37,10 @@ LIBRARIES DEPENDENCIES:
 
 Boost C++ Libraries 
 www.boost.org/
+
 GSL - GNU Scientific Library - GNU Project
 www.gnu.org/software/gsl/
+
 SymPy
 http://www.sympy.org/
 
