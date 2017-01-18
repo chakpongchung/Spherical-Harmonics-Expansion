@@ -14,6 +14,7 @@ USE CASES:
 
 One of the use cases we find is in nematic polymer simulation. We used it to find out the parameters that can coverge to  periodic pattern for 1D sturcture.
 
+DEMO:
 https://drive.google.com/drive/folders/0B07OecC53Z0dMnpnbVpqNjV4VkE
 
 
