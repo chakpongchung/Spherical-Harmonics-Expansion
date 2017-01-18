@@ -27,13 +27,6 @@ The relevant notations used and derivatiosns are attaced in the corresponding fo
 To use the code-snippets in linux, you can run it in the terminal with
 ./run.sh
 
-To use test the whole program, you can go to the src folder in the terminal, then
-├── Makefile
-├── sh.cpp
-├── sh.h
-├── sph
-└── sph.cpp
-
 
 LIBRARIES DEPENDENCIES:
 -----------------------
