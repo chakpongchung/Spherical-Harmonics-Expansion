@@ -25,7 +25,10 @@ The relevant notations used and derivatiosns are attaced in the corresponding fo
 
 
 To use the code-snippets in linux, you can run it in the terminal with
-./run.sh
+$ bash ./run.sh
+
+To test, go to the src folder and:
+$ make
 
 
 LIBRARIES DEPENDENCIES:
@@ -37,32 +40,6 @@ GSL - GNU Scientific Library - GNU Project
 www.gnu.org/software/gsl/
 SymPy
 http://www.sympy.org/
-
-The current folder structure is:
-
-├── code-snippets
-│   ├── assert.cpp
-│   ├── check_diff.cpp
-│   ├── print_a.c
-│   └── run.sh
-├── Master-Project.ipynb
-├── notations
-│   ├── 1.pdf
-│   ├── 2.pdf
-│   ├── 3.pdf
-│   ├── dot_product.pdf
-│   ├── expansion.pdf
-│   ├── identity.pdf
-│   └── result.pdf
-├── README.txt
-└── src
-    ├── Makefile
-    ├── sh.cpp
-    ├── sh.h
-    ├── sph
-    └── sph.cpp
-
-
 
 Please send email to chakpongchung@gmail.com if you have questions.
 
