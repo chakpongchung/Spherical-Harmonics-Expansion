@@ -19,21 +19,25 @@ https://drive.google.com/drive/folders/0B07OecC53Z0dMnpnbVpqNjV4VkE
 
 
 
-The core algorithm is now implemented with boost and GNU scientific library in C/C++. It is now used SymPy in python since SciPy 2015.
+The core algorithm is now implemented with Boost C++ Libraries and GNU Scientific Library(GSL) in C/C++. It can also be used with SymPy in Python since SciPy 2015.
 http://docs.sympy.org/dev/aboutus.html#sympy-development-team
 
 The relevant notations used and derivatiosns are attaced in the corresponding folders here.
 
 
 To use the code-snippets in linux, you can run it in the terminal with
-$ bash ./run.sh
+
+    code-snippets$ bash ./run.sh
+
 
 To test, go to the src folder and:
-$ make
+
+    src$ make
 
 
 LIBRARIES DEPENDENCIES:
 -----------------------
+
 
 Boost C++ Libraries 
 www.boost.org/
@@ -44,5 +48,5 @@ www.gnu.org/software/gsl/
 SymPy
 http://www.sympy.org/
 
-Please send email to chakpongchung@gmail.com if you have questions.
+Please email to chakpongchung@gmail.com if you have any questions.
 
