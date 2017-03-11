@@ -22,7 +22,7 @@ https://drive.google.com/drive/folders/0B07OecC53Z0dMnpnbVpqNjV4VkE
 
 
 
-The core algorithm is now implemented with Boost C++ Libraries and GNU Scientific Library(GSL) in C/C++. It can also be used with SymPy in Python since SciPy 2015.  
+The core algorithm is now implemented(with minimal dependencies) with Boost C++ Libraries and GNU Scientific Library(GSL) in C/C++. It can also be used with SymPy in Python since SciPy 2015.  
 http://docs.sympy.org/dev/aboutus.html#sympy-development-team
 
 The relevant notations used and derivatiosns are attaced in the corresponding folders here.
