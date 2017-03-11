@@ -10,7 +10,7 @@ GSLFLAGS = -lgsl -lgslcblas -lm
 # ****************************************************
 # Targets needed to bring the executable up to date
 
-sph: sph.o sh.o
+dsph: sph.o sh.o
 	$(CXX) $(CXXFLAGS) -o sph sph.o sh.o $(GSLFLAGS)
 
 # The main.o target can be written more simply

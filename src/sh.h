@@ -7,7 +7,8 @@
 #include <math.h>
 #include <stdio.h>
 
-class sh {
+class sh
+{
 
 public:
   void test();

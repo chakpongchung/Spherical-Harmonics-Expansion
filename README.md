@@ -9,6 +9,9 @@ TUTORIAL
 http://nbviewer.jupyter.org/github/chakpongchung/spherical-harmonics-expansion/blob/master/Master-Project.ipynb
 
 
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+
 USE CASES:
 ----------
 
@@ -27,7 +30,7 @@ The relevant notations used and derivatiosns are attaced in the corresponding fo
 
 To use the code-snippets in linux, you can run it in the terminal with
 
-    code-snippets$ bash ./run.sh
+    tests$ bash ./run.sh
 
 
 To test, go to the src folder and:
