@@ -1,11 +1,3 @@
-// #include <stdio.h>
-// #include <math.h>
-// #include <gsl/gsl_sf_coupling.h>
-// #include <boost/math/special_functions/spherical_harmonic.hpp>
-// #include <iterator>
-// #include <algorithm>
-// #include <fstream>
-
 #include "sh.h"
 #include <iostream>
 using namespace std;
