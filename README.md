@@ -17,23 +17,23 @@ USE CASES:
 
 One of the use cases we find is in nematic polymer simulation. We used it to find out the parameters that can coverge to  periodic pattern for 1D sturcture.
 
-DEMO:
+DEMO:  
 https://drive.google.com/drive/folders/0B07OecC53Z0dMnpnbVpqNjV4VkE
 
 
 
-The core algorithm is now implemented with Boost C++ Libraries and GNU Scientific Library(GSL) in C/C++. It can also be used with SymPy in Python since SciPy 2015.
+The core algorithm is now implemented with Boost C++ Libraries and GNU Scientific Library(GSL) in C/C++. It can also be used with SymPy in Python since SciPy 2015.  
 http://docs.sympy.org/dev/aboutus.html#sympy-development-team
 
 The relevant notations used and derivatiosns are attaced in the corresponding folders here.
 
 
-To use the code-snippets in linux, you can run it in the terminal with
+To test the code-snippets in linux, you can run it in the terminal with:
 
     tests$ bash ./run.sh
 
 
-To test, go to the src folder and:
+To use, go to the src folder and:
 
     src$ make
 
