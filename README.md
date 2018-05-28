@@ -1,4 +1,4 @@
-spherical harmonics expansion and the general solution of the scalar product of rotational gradient operator.
+spherical harmonics expansion and the general solution of the inner product of rotational gradient operator.
 ========================================================================
 
 
@@ -40,7 +40,8 @@ To use, go to the src folder and:
 
 LIBRARIES DEPENDENCIES:
 -----------------------
-
+Updates:
+starting from c++17, Associated Legendre Polynomials(hence the function for Spherical Harmonics) are supported in C++17  .
 
 Boost C++ Libraries 
 www.boost.org/
