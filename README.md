@@ -40,7 +40,7 @@ To use, go to the src folder and:
 
 LIBRARIES DEPENDENCIES:
 -----------------------
-Updates:
+Updates:  
 starting from c++17, Associated Legendre Polynomials(hence the function for Spherical Harmonics) are supported in C++17  .
 
 Boost C++ Libraries 
