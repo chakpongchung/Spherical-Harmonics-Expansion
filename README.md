@@ -6,10 +6,10 @@ TUTORIAL
 --------
 
 
-http://nbviewer.jupyter.org/github/chakpongchung/spherical-harmonics-expansion/blob/master/Master-Project.ipynb
+https://nbviewer.jupyter.org/github/chakpongchung/Spherical-Harmonics-Expansion/blob/master/derivation.ipynb
 
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Yaktocat](http://stsdas.stsci.edu/download/mdroe/plotting/_images/entry1.png)
 
 
 USE CASES:
